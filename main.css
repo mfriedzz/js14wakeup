@@ -2,6 +2,75 @@
 	box-sizing: border-box;
 }
 
+.container {
+
+}
+
 .outer-shell {
-	color: #545454;
+	top: 20px;
+	padding: 35px;
+	background-color: #545454;
+	width: 800px;
+	height: 400px;
+	
+	margin: 0 auto;
+	border-style: solid;
+}
+
+.inner-shell {
+
+	background-color: #000000;
+	padding: 20px;
+	width: 50%;
+	height: 50%;
+	/*width: 600px;
+	height: 200px;*/
+	margin: 0 auto;
+	border-radius: 10px;
+	
+}
+
+.leftAM {
+	color: white;
+
+}
+
+.leftPM {
+	color: white;
+
+}
+
+.autoLabels {
+	color: white;
+}
+
+.clockScreen {
+	color: #ff0000;
+}
+
+.clockAM {
+	color: red;
+}
+
+.clockPM {
+	color:red;
+}
+
+.clockText {
+	color: red;
+}
+
+.bottomAM {
+	color: white;
+}
+
+.bottomFM {
+	color: white;
+}
+
+.bottomAMfreq {
+	color: white;
+}
+.bottomFMfreq {
+	color: white;
 }
