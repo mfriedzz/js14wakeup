@@ -10,8 +10,8 @@ $(document).on('ready', function() {
   var leftPM = $('<div class="leftPM"><label>Left FM White</label></div>');
   var autoLabels = $('<div class="autoLabels"><label>autolabels white</label></div>');
 
-  //var clockScreen = $('<div class="clockScreen"><label>CLOCKSCREEN dark red</label></div>');
-  var clockScreen = $(this).datetimeEntry({datetimeFormat: 'D/O/Y H:Ma'});
+  var clockScreen = $('<div class="clockScreen"><label>CLOCKSCREEN dark red</label></div>');
+ //var clockScreen = $(this).datetimeEntry({datetimeFormat: 'D/O/Y H:Ma'});
   var clockAM = $('<div class="clockam"><label>AM red</label></div>');
   var clockPM = $('<div class="clockPM"><label>PM red</label></div>');
   var clockText = $('<div class="clockText"><label>CLOCKText</label></div>');
